@@ -1,5 +1,4 @@
 import blessed from 'blessed'
-import 'reflect-metadata'
 import { ResponseDTO } from '../common/types'
 import { CommandDTO } from '../loyalty/dto/command.dto'
 import { createLoyaltyModule } from '../loyalty/loyalty.module'

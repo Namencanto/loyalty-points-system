@@ -1,4 +1,3 @@
-import 'reflect-metadata'
 import { processTokens } from './cli/processor'
 import { LoyaltyService } from './loyalty/loyalty.service'
 import { LoyaltyController } from './loyalty/loyalty.controller'

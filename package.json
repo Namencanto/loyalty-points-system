@@ -7,17 +7,22 @@
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "tui": "ts-node src/cli/tui.ts",
-    "tui:build": "tsc && node dist/cli/tui.js"
+    "tui:build": "tsc && node dist/cli/tui.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:cov": "vitest run --coverage",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "blessed": "^0.1.81",
-    "class-validator": "^0.14.1",
-    "reflect-metadata": "^0.1.13"
+    "class-validator": "^0.14.1"
   },
   "devDependencies": {
     "@types/blessed": "^0.1.25",
     "@types/node": "^20.12.12",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "vitest": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4"
   }
 }

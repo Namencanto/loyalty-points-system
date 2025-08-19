@@ -1,0 +1,23 @@
+{
+  "name": "loyalty",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "tui": "ts-node src/cli/tui.ts",
+    "tui:build": "tsc && node dist/cli/tui.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "class-validator": "^0.14.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
